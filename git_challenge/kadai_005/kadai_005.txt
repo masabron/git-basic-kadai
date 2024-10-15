@@ -1,0 +1,31 @@
+Step1. ローカルリポジトリ「git_challenge」を作成する
+mkdir git_challenge
+cd git_challenge
+git init
+
+Step2. テキストファイル「hello_world.txt」を作成する
+cd git_challenge
+touch hello_world.txt
+
+Step3. 「hello_world.txt」に2回の変更をコミットする
+git add hello_world.txt
+git commit -m "Add first line: Hello, world!"
+
+git add hello_world.txt
+git commit -m "Add second line: こんにちは、世界！"
+
+Step4. 「hello_world.txt」の変更履歴を表示する
+git log --oneline
+
+2bc219c (HEAD -> main) Add second line: こんにちは、世界！
+613e9a0 Add first line: Hello, world!
+
+Step5. 課題用ディレクトリ「kadai_005」を作成する
+mkdir kadai_005
+
+Step6. 課題用のテキストファイル「kadai_005.txt」を作成する
+cd kadai_005
+touch kadai_005.txt
+
+history
+
